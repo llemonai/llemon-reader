@@ -9,7 +9,7 @@ A free PDF reader and annotator for **Windows** and **Android**, from [llemonai]
 ## What it does
 
 - **Side panel:** docked on the left and independent of the document, with the PDF's index, page thumbnails, notes, bookmarks and search.
-- **Annotations:** highlight, underline, circle, freehand pen, sticky notes, notes on text or whole pages, and bookmarks for pages or comments.
+- **Annotations:** highlight, underline, circle, freehand pen, an eraser, sticky notes, notes on text or whole pages, and bookmarks for pages or comments.
 - **Search:** finds single words or whole sentences.
 - **Page management:** add blank pages, delete, drag to reorder, rotate, or insert another PDF or Word file at any position.
 - **Merging:** append PDF and Word (.docx) files.
@@ -29,11 +29,11 @@ The builds are signed with llemonai's own self-signed certificate (Windows) and 
 
 To confirm a file is genuine, compare its SHA256 checksum. On Windows, run `certutil -hashfile <file> SHA256`.
 
-| File (v1.0.1) | SHA256 |
+| File (v1.0.2) | SHA256 |
 |---|---|
-| `llemonAI-Reader-1.0.1-android.apk` | `DE3F80C6B3B15E05248D0B80537401D667D13BF61792D154CD111F4A431F169D` |
-| `llemonAI-Reader-1.0.1-win-x64.exe` | `559D4A0CC8590E71CE2F3E5ADDE0A5539D926A7D85D307A11209C07C8629B39B` |
-| `llemonAI-Reader-1.0.1-win-x86.exe` | `6D85ADF03D58BC12D0B7E9E578D23611D815574BF98AF2C18B700DE8B897F5A1` |
+| `llemonAI-Reader-1.0.2-android.apk` | `30E422A47FF3926F88FAABBDE6721841C45ECF36C6359F634189AB8BAF7A9159` |
+| `llemonAI-Reader-1.0.2-win-x64.exe` | `97F69E8066A5AC5F6AB9C07F317EDEF212EC6AFD0CC7EB92EA2834D8DC064990` |
+| `llemonAI-Reader-1.0.2-win-x86.exe` | `F0C473B94279E764E05AE8E1DF47A38F79ED73BDEC78B73A598E3746E562B83F` |
 
 ## Repo contents
 
