@@ -11,6 +11,7 @@ A free PDF reader, annotator and presentation tool for **Windows**, **macOS** an
 - **Presentation mode (Windows and macOS):** a separate audience window shows only the PDF page on a projector or video call, while you keep all the controls, thumbnails and notes.
 - **Whiteboard:** collect selected text, rectangular or freehand areas with their annotations, and connect them with arrows. Each box shows its page number and opens that page when clicked.
 - **Side panel:** docked on the left and independent of the document, with the PDF's index, page thumbnails, notes, bookmarks and search.
+- **Type and paste onto pages:** type on any page, such as an inserted blank page, with font, size, bold, italic, underline and colour, and paste text or pictures (screenshots, pictures from other apps) with Ctrl+V. Each also gets a whiteboard box that leads back to its page.
 - **Annotations:** highlight, underline, circle, freehand pen, an eraser, sticky notes, notes on text or whole pages, and bookmarks for pages or comments.
 - **Search:** finds single words or whole sentences.
 - **Page management:** add blank pages, delete, drag to reorder, rotate, hide, or insert another PDF or Word file at any position.
@@ -33,13 +34,13 @@ The builds are signed with llemonai's own self-signed certificate (Windows), rel
 
 To confirm a file is genuine, compare its SHA256 checksum. On Windows, run `certutil -hashfile <file> SHA256`; on a Mac, `shasum -a 256 <file>`.
 
-| File (v2.0.1) | SHA256 |
+| File (v2.0.2) | SHA256 |
 |---|---|
-| `llemonAI-Reader-2.0.1-android.apk` | `C98FAA65F4FDB4FD9C78C5217B8B62AEC2ADB35F3DF0D8716367C398D070DCFE` |
-| `llemonAI-Reader-2.0.1-macos.dmg` | `666325E55168F3E5924809B0536DA3E0D4ECBAB3613C2FF09DC931FD011A4DF6` |
-| `llemonAI-Reader-2.0.1-macos.zip` | `87D6A23139EC7E31C9E284A4603F4C2CCDE92046B1A9C7D6779FF399A63E688F` |
-| `llemonAI-Reader-2.0.1-win-x64.exe` | `6BF9590E1DEB3514DEAD53182EBCEDB435B8A3DFEC5556D6AC7AA46F0B34774D` |
-| `llemonAI-Reader-2.0.1-win-x86.exe` | `231E899C5ABE8130B5F90E2C7E0AA740C885C46C2D6EAAA3B71C70EC9DB66763` |
+| `llemonAI-Reader-2.0.2-android.apk` | `7E47C785EFA86FA9AF26541451D5EDF50C5DD060EFF57AD4BBB60AEAA0E3FF7D` |
+| `llemonAI-Reader-2.0.2-macos.dmg` | `36E5F59B13B3266340CE7C0CA97B8C22784D73B585FC3BCE50EA89315F501A78` |
+| `llemonAI-Reader-2.0.2-macos.zip` | `D7E5E1F9157BF1E5F47F4693FA3DBA4DDC786A4090EFC6CF47C69AA288362348` |
+| `llemonAI-Reader-2.0.2-win-x64.exe` | `54D1FF5CC60C0E0E6D9A6109FE2EFBD774BE84B8145F02DCD3503607AC65A359` |
+| `llemonAI-Reader-2.0.2-win-x86.exe` | `37CC16941C3EC980F9E61236AABFB8D6A3B85A03F03AB8ED8FB976D239EB2B3C` |
 
 ## Repo contents
 
