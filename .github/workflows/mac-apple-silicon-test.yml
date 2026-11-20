@@ -109,7 +109,7 @@ jobs:
               "thumbnails drawn": m.get("thumbnails") == 6,
               "Present button shown": m.get("presentButton") is True,
               "Mac key hints": "⌘" in m.get("saveTitle", ""),
-              "audience window opened": p.get("opened") is True and p.get("windowTitle") == "llemonAI Reader - Audience",
+              "audience window opened": p.get("opened") is True and p.get("windowTitle") in ("llemonAI PDF Annotator - Audience", "llemonAI Reader - Audience"),  # renamed in 2.0.4
               "keys stay with the presenter": p.get("keyIsPresenter") is True,
               "audience shows the page": p.get("first", {}).get("canvas") is True and p.get("first", {}).get("toolbarHidden") is True,
               "audience follows page changes": p.get("afterGoToPage4", {}).get("current") == 3,
