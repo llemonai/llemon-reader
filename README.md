@@ -10,6 +10,9 @@ A free PDF reader, annotator and presentation tool for **Windows**, **macOS** an
 
 - **Presentation mode (Windows and macOS):** a separate audience window shows only the PDF page on a projector or video call, while you keep all the controls, thumbnails and notes.
 - **Paper book mode (for advocates):** set the printed page numbers once; Go to page then takes the number the court uses, on a large keypad. Every appended file keeps its own page numbers, and Delete file removes appended files again.
+- **Compare:** another page beside the one you are reading, such as two witnesses' statements or the evidence beside the judgment, to mark where they differ.
+- **Switch to llemonAI Bare Acts:** when [llemonAI Bare Acts](https://github.com/llemonai/llemon-bare-acts) is on the same device, one button opens the act you need, with your notes on it, and another brings you back.
+- **White paper:** numbered white pages beside the PDF with every whiteboard tool.
 - **Whiteboard:** typed and handwritten notes, text and areas taken from pages, linked to their places in the PDF and grouped. Tapping a note opens each linked place in turn.
 - **Scan with the camera:** a photo of a page is straightened, cleaned up and added as a new page.
 - **Side panel:** docked on the left and independent of the document, with the PDF's index, page thumbnails, notes, bookmarks and search.
@@ -36,13 +39,13 @@ The builds are signed with llemonai's own self-signed certificate (Windows), rel
 
 To confirm a file is genuine, compare its SHA256 checksum. On Windows, run `certutil -hashfile <file> SHA256`; on a Mac, `shasum -a 256 <file>`.
 
-| File (v2.0.4) | SHA256 |
+| File (v2.0.5) | SHA256 |
 |---|---|
-| `llemonAI-Reader-2.0.4-android.apk` | `225E73F4205ECDF62238B9CA7264E0A998D1163DDDA1881030C5B87B160D2365` |
-| `llemonAI-Reader-2.0.4-macos.dmg` | `04AD4AE4E305E79FF0CF75C0BD58E4F68C8CA090531239038B02A88A578089EC` |
-| `llemonAI-Reader-2.0.4-macos.zip` | `2C4AE50D1CB85C2D99FCDEA75B316242A2CCCCADBE45D905B47033041ABBDF74` |
-| `llemonAI-Reader-2.0.4-win-x64.exe` | `9C16451886AEC9C8956A11F676CF2503BE5A961264E84FC4751D6F7CEFCC49C1` |
-| `llemonAI-Reader-2.0.4-win-x86.exe` | `9679EEF4CD1F0644CCFB557C9999AA822B1BBE51406035E1A69EB3FD466FE630` |
+| `llemonAI-Reader-2.0.5-android.apk` | `0D93166D4F09A81E479FB77AF6DCE816953CAC8EB526F24E3A6E394E58AB3D1F` |
+| `llemonAI-Reader-2.0.5-macos.dmg` | `62C9CF0C21F786C7B53940D8B508E2D81565503B1805F67B80EC2E158E37AB8E` |
+| `llemonAI-Reader-2.0.5-macos.zip` | `D6E45F321F23C17CF8B3C385294EE6E6F1553DECBAE1FB492B96A036DE36BEC3` |
+| `llemonAI-Reader-2.0.5-win-x64.exe` | `D6EAAD0CC94382009663A0E147CB344F5A3BA22977B1FA07FC8EA1414EBF04DB` |
+| `llemonAI-Reader-2.0.5-win-x86.exe` | `4D30646A20BB96EBA2A1D81A14DA251A7759D1F5DB9F7DE2A98210086FB4E210` |
 
 ## Repo contents
 
